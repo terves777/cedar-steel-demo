@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cedar &amp; Steel: барбершоп (демо-кейс)</title>
+<meta name="description" content="Барбершоп: стрижки, борода, бритьё. Онлайн-запись через Telegram.">
+<meta name="theme-color" content="#14110f">
+
+<!-- Open Graph: превью ссылки в Telegram, WhatsApp, соцсетях.
+     После публикации замените USERNAME на ваш логин GitHub. -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Cedar &amp; Steel: барбершоп (демо-кейс)">
+<meta property="og:description" content="Барбершоп: стрижки, борода, бритьё. Онлайн-запись через Telegram.">
+<meta property="og:image" content="https://terves777.github.io/cedar-steel-demo/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- Структурированные данные для поисковиков (замените данные на реальные у клиента) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarberShop",
+  "name": "Cedar & Steel (демо)",
+  "telephone": "+7-900-000-00-00",
+  "address": { "@type": "PostalAddress", "streetAddress": "ул. Примерная, 12", "addressCountry": "RU" },
+  "openingHours": "Mo-Su 10:00-21:00",
+  "priceRange": "600–2300 ₽"
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#top">Перейти к содержимому</a>
+
+<!-- Иконка-силуэт для карточек мастеров -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-user" viewBox="0 0 24 24">
+    <circle cx="12" cy="8" r="4" fill="currentColor"/>
+    <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<header class="hdr"><div class="wrap">
+  <a class="logo" href="#top" aria-label="Cedar &amp; Steel, наверх">Cedar<b>&amp;</b>Steel</a>
+  <nav class="nav" id="menu" aria-label="Основная навигация">
+    <a href="#uslugi">Услуги</a>
+    <a href="#mastera">Мастера</a>
+    <a href="#raboty">Работы</a>
+    <a href="#kontakty">Контакты</a>
+  </nav>
+  <a class="btn" href="https://t.me/bookstitle_bot" target="_blank" rel="noopener noreferrer">Записаться</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Открыть меню">
+    <span></span><span></span><span></span>
+  </button>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+  <h1><span class="line"><span>Стрижка по делу.</span></span> <span class="line"><span>Без очереди и суеты.</span></span></h1>
+  <p class="lead">Классические и современные стрижки, борода, горячее бритьё. Выберите мастера и время в Telegram, а накануне мы напомним о записи.</p>
+  <div class="cta">
+    <a class="btn btn--fill" href="https://t.me/bookstitle_bot" target="_blank" rel="noopener noreferrer">Записаться в Telegram</a>
+    <a class="btn" href="#uslugi">Услуги и цены</a>
+  </div>
+  <div class="pole" aria-hidden="true"></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Без лишнего</h2>
+  <p class="sub">Приходите в своё время и уходите с аккуратной стрижкой.</p>
+  <div class="feats">
+    <div class="feat"><h3>Запись за минуту</h3><p>Мастер и время выбираются в Telegram, без звонков и переписки.</p></div>
+    <div class="feat"><h3>Время закреплено за вами</h3><p>Ваш слот не займёт другой клиент, а накануне придёт напоминание.</p></div>
+    <div class="feat"><h3>Чистый инструмент</h3><p>Перед каждым клиентом инструмент проходит обработку.</p></div>
+  </div>
+  <div class="stats">
+    <div class="stat"><strong class="stat__num" data-count="8">8</strong><span class="stat__label">лет работы</span></div>
+    <div class="stat"><strong class="stat__num" data-count="6">6</strong><span class="stat__label">мастеров</span></div>
+    <div class="stat"><strong class="stat__num" data-count="4500" data-sfx="+">4&nbsp;500+</strong><span class="stat__label">клиентов</span></div>
+  </div>
+</div></section>
+
+<section id="uslugi" class="alt"><div class="wrap">
+  <h2>Услуги и цены</h2>
+  <p class="sub">Цены указаны за работу мастера. Точное время подтвердится при записи.</p>
+  <ul class="price">
+    <li><div><h3>Мужская стрижка</h3><small>Машинка и ножницы, 60 мин</small></div><span class="price__value">1&nbsp;500&nbsp;₽</span></li>
+    <li><div><h3>Стрижка и борода</h3><small>Полный образ, 90 мин</small></div><span class="price__value">2&nbsp;300&nbsp;₽</span></li>
+    <li><div><h3>Моделирование бороды</h3><small>Форма, контур, уход, 30 мин</small></div><span class="price__value">900&nbsp;₽</span></li>
+    <li><div><h3>Детская стрижка</h3><small>От 5 до 12 лет, 45 мин</small></div><span class="price__value">1&nbsp;200&nbsp;₽</span></li>
+    <li><div><h3>Горячее бритьё</h3><small>Опасная бритва, 45 мин</small></div><span class="price__value">1&nbsp;400&nbsp;₽</span></li>
+    <li><div><h3>Укладка</h3><small>Подбор средств, 20 мин</small></div><span class="price__value">600&nbsp;₽</span></li>
+  </ul>
+  <p class="more"><a class="btn btn--fill" href="https://t.me/bookstitle_bot" target="_blank" rel="noopener noreferrer">Выбрать время</a></p>
+</div></section>
+
+<section id="mastera"><div class="wrap">
+  <h2>Мастера</h2>
+  <p class="sub">Выбирайте того, кто ближе по стилю, или записывайтесь к первому свободному.</p>
+  <div class="team">
+    <div><div class="ava" aria-hidden="true"><svg><use href="#i-user"/></svg></div><h3>Артём</h3><p>Старший барбер. Классика и фейды.</p></div>
+    <div><div class="ava" aria-hidden="true"><svg><use href="#i-user"/></svg></div><h3>Максим</h3><p>Барбер. Борода и горячее бритьё.</p></div>
+    <div><div class="ava" aria-hidden="true"><svg><use href="#i-user"/></svg></div><h3>Илья</h3><p>Барбер. Детские стрижки и укладка.</p></div>
+  </div>
+</div></section>
+
+<section id="raboty" class="alt"><div class="wrap">
+  <h2>Работы</h2>
+  <p class="sub">Здесь будут фото ваших работ.</p>
+  <!-- Когда появятся фото, замените <figcaption>…</figcaption> на:
+       <img src="assets/images/work-1.jpg" alt="Короткая стрижка с фейдом" width="400" height="400" loading="lazy"> -->
+  <div class="gal">
+    <figure><figcaption>Фото 1</figcaption></figure>
+    <figure><figcaption>Фото 2</figcaption></figure>
+    <figure><figcaption>Фото 3</figcaption></figure>
+    <figure><figcaption>Фото 4</figcaption></figure>
+    <figure><figcaption>Фото 5</figcaption></figure>
+    <figure><figcaption>Фото 6</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="kontakty"><div class="wrap">
+  <h2>Контакты</h2>
+  <div class="contacts">
+    <div>
+      <dl>
+        <div><dt>Адрес</dt><dd>ул. Примерная, 12</dd></div>
+        <div><dt>Часы работы</dt><dd>Ежедневно 10:00–21:00</dd></div>
+        <div><dt>Телефон</dt><dd><a href="tel:+79000000000">+7 (900) 000-00-00</a></dd></div>
+      </dl>
+      <a class="btn btn--fill" href="https://t.me/bookstitle_bot" target="_blank" rel="noopener noreferrer">Записаться в Telegram</a>
+    </div>
+
+    <!-- Схема проезда (демо). В боевом проекте заменяется на iframe 2ГИС или Яндекс Карт -->
+    <div class="map">
+      <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Схема проезда: барбершоп находится на улице Примерной, дом 12">
+        <rect class="block" x="10" y="8" width="104" height="40"/>
+        <rect class="block" x="146" y="8" width="168" height="40"/>
+        <rect class="block" x="346" y="8" width="44" height="40"/>
+        <rect class="block" x="10" y="72" width="104" height="62"/>
+        <rect class="block" x="146" y="72" width="168" height="62"/>
+        <rect class="block" x="346" y="72" width="44" height="62"/>
+        <rect class="block" x="10" y="172" width="104" height="58"/>
+        <rect class="block" x="146" y="172" width="168" height="58"/>
+        <rect class="block" x="346" y="172" width="44" height="58"/>
+        <path class="road road--side" d="M130 0V240M330 0V240M0 60H400"/>
+        <path class="road road--main" d="M0 150H400"/>
+        <text x="40" y="154">ул. Примерная</text>
+        <circle class="pin-ring" cx="250" cy="103" r="9"/>
+        <circle class="pin" cx="250" cy="103" r="8"/>
+        <circle class="pin-dot" cx="250" cy="103" r="3"/>
+        <text class="map-title" x="250" y="126" text-anchor="middle">CEDAR &amp; STEEL</text>
+      </svg>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer>Cedar &amp; Steel: вымышленный бренд для демо-кейса</footer>
+<div class="bar" inert><a class="btn btn--fill" href="https://t.me/bookstitle_bot" target="_blank" rel="noopener noreferrer">Записаться в Telegram</a></div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
